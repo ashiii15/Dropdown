@@ -43,8 +43,14 @@ position: absolute;
     right: 9%;
     width: 260px;
     background-color: #fff;
-    padding: 2%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    padding: 0 20px;
     
+}
+.sub-branch.open-branch{
+    max-height: 400px;
 }
 .details{
     display: flex;

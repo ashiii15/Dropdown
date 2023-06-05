@@ -17,12 +17,12 @@
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <img src="/images/user.png" class="pic">
-            <div class="sub-branch">
+            <img src="/images/user.png" class="pic" onclick="toggleMenu()">
+            <div class="sub-branch" id="subMenu">
                 <div class="details">
                 <img src="/images/user.png">
                 <h2>Ashik Abdul</h2>
-            </div>
+                 </div>
              <hr>
                 <!-- edit -->
                 <div class="box">
@@ -53,5 +53,12 @@
             </div>
         </nav>    
         </div>
+        <script>
+            let subMenu = document.getElementById("subMenu");
+
+            function toggleMenu(){
+                subMenu.classList.toggle("open-branch");
+            }
+        </script>
 </body>
 </html>
