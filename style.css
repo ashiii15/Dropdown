@@ -15,12 +15,14 @@ nav{
     align-items: center;
     justify-content: space-between;
     background-color: #000;
+    position: relative;
 }
 nav img{
     width: 100px;
 }
 nav .pic{
-    width: 50px;
+    width: 38px;
+    margin-left: 18px;
 }
 nav ul{
     width: 100%;
@@ -34,4 +36,65 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
+}
+.sub-branch{
+position: absolute;
+    top: 100%;
+    right: 9%;
+    width: 260px;
+    background-color: #fff;
+    padding: 2%;
+    
+}
+.details{
+    display: flex;
+    align-items: center;
+}
+.details img{
+width: 57px;
+padding-right: 8px;
+}
+.sub-branch hr{
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 10px 0;
+    background-color: #6b5656;
+}
+.settings img{
+    width: 90px;
+}
+.links img{
+    width: 40px;
+    border-radius: 50%;
+    background: #e5e5e5;
+    margin-right: 12px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.links h2{
+    font-size: 15px;
+    margin-left: 1px;
+    margin: 10px 0;
+    width: 100%;
+    font-weight: 300;
+}
+.box a{
+    text-decoration: none;
+    color: #525252;
+}
+ .links span{
+    font-size: 17px;
+    transition: transform 0.5s;
+}
+.links:hover span{
+    transform: translate(5px);
+}
+
+.links:hover h2{
+    font-weight: 700;
 }
